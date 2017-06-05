@@ -1,0 +1,1 @@
+# drie-scala-minimal
