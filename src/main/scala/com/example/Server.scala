@@ -31,7 +31,7 @@ class Hello extends Service[HttpRequest, HttpResponse] {
 
   def showHome(request: HttpRequest): Future[HttpResponse] = {
     val response = Response()
-    response.setContentString("Hello from Scala!")
+    response.setContentString("Hello from Scala deployed on drie!")
     Future(response)
   }
 
